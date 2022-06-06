@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VehicleApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cars">Cars</string>
+    <string name="boats">Boats</string>
+    <string name="planes">Planes</string>
+</resources>

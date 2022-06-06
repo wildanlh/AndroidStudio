@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_cars"
+        android:icon="@drawable/ic_car"
+        android:title="@string/cars" />
+    <item
+        android:id="@+id/item_planes"
+        android:icon="@drawable/ic_flight"
+        android:title="@string/planes" />
+    <item
+        android:id="@+id/item_boats"
+        android:icon="@drawable/ic_boat"
+        android:title="@string/boats" />
+</menu>
