@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListVaccineRealtimeApp</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="inputname">Input Name</string>
+    <string name="submit">Submit</string>
+    <string name="list">List Vaccine</string>
+</resources>

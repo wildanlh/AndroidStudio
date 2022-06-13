@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275957818829",
+    "project_id": "vaccinefirebaseapp",
+    "storage_bucket": "vaccinefirebaseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275957818829:android:626ec550caf1a8d8e61084",
+        "android_client_info": {
+          "package_name": "com.example.listvaccinerealtimeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275957818829-4kptelmh5rajk1h6dfhnb5epmhhb2ar5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH7Kfah64Ug7s2RrOrchRluLZltj7WTB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275957818829-4kptelmh5rajk1h6dfhnb5epmhhb2ar5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/list_txt"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/bg_card">
+
+            <ImageView
+                android:id="@+id/syringe_img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/ic_syringe"/>
+
+            <TextView
+                android:id="@+id/name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/name"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:layout_below="@id/syringe_img"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_below="@id/name_txt"
+                android:hint="@string/inputname"
+                android:background="@drawable/bg_edit"
+                android:elevation="5dp"
+                android:textSize="15sp"
+                android:paddingHorizontal="10dp"
+                android:inputType="text"
+                android:maxLength="100"/>
+
+            <TextView
+                android:id="@+id/status_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/status"
+                android:textColor="@color/black"
+                android:layout_below="@id/name_edit"
+                android:textSize="20sp"
+                android:textAllCaps="true"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/status_spin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/style_spinner"
+                android:elevation="5dp"
+                android:paddingHorizontal="10dp"
+                android:layout_below="@id/status_txt"/>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button"
+                android:layout_marginVertical="30dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="@string/submit"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_below="@id/status_spin"/>
+
+        </RelativeLayout>
+
+
+
+</RelativeLayout>
